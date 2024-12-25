@@ -1,6 +1,6 @@
 <template>
     <h1>
-        home page aaaaaaa
+        home component page
     </h1>
 </template>
 <script>

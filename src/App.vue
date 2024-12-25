@@ -1,5 +1,5 @@
 <template>
-    <h1>Hello from Vue!</h1>
+    <h1>App Home Page!</h1>
 </template>
 
 <script>
