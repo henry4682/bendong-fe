@@ -5,6 +5,7 @@ export default defineConfig({
     plugins: [
         vue(),
     ],
+    base: '/bengtong-fe/',
     css: {
         preprocessorOptions: {
             scss: {
