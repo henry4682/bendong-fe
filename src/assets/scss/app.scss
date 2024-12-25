@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$primary-color: #3490dc;
+
+body {
+    font-family: 'Arial', sans-serif;
+    // background-color: $primary-color;
+}
+
+.btn {
+    @extend .px-4 !optional;
+    @extend .py-2 !optional;
+    background-color: darken($primary-color, 10%);
+    color: white;
+    border-radius: 5px;
+}
+
+.custom-class {
+    background-color: #ffcc00;
+    font-weight: bold;
+}
