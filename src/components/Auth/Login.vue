@@ -41,7 +41,7 @@ export default{
             if (!emailRegex.test(authData.account)) {
                 warningInfo.account = "格式錯誤"
             }
-            if (authData.password !== '123') {
+            if (authData.account !== '' && authData.password !== '123') {
                 warningInfo.password = "密碼錯誤"
             }
 
