@@ -1,11 +1,18 @@
 <template>
-    <h1>App Home Page!</h1>
-</template>
-
+    <Navbar/>
+    <RouterView />
+</template> 
+  
 <script>
-export default {
+
+import Navbar from './components/Layout/Navbar.vue';
+
+  export default {
     name: 'App',
-};
+    components: {
+      Navbar
+    }
+  };
 </script>
 
 <style scoped>

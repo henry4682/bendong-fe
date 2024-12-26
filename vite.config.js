@@ -5,7 +5,7 @@ export default defineConfig({
     plugins: [
         vue(),
     ],
-    base: '/bengtong-fe/',
+    base: process.env.NODE_ENV === 'production' ? '/bengtong-fe/' : '',
     css: {
         preprocessorOptions: {
             scss: {

@@ -4,6 +4,25 @@
 
 $primary-color: #3490dc;
 
+//table
+$table-cell-padding-y: 1rem;
+$table-cell-padding-x: 1rem;
+$table-cell-padding-y-sm: 0.5rem;
+$table-cell-padding-x-sm: 0.5rem;
+
+// 全站都會使用的共同樣式
+@import './reset.scss';
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+
 body {
     font-family: 'Arial', sans-serif;
     // background-color: $primary-color;
